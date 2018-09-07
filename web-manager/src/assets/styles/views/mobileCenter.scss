@@ -1,0 +1,67 @@
+.areaBox-content {
+    position: relative;
+    height: 391px;
+    width: 178px;
+    border:1px solid #ced5de;
+    .area-firt {
+        position: absolute;
+        left:0;
+        top:0;
+        right: 0;
+        height: 39px;
+        border-bottom:1px solid #ced5de;
+        background: #f8f9fc;
+        .el-checkbox {
+            display: block;
+            width: 100%;
+            height: 39px;
+            line-height: 39px;
+            margin-left: 0;
+            padding-left: 18px;
+        }
+    }
+}
+.el-checkbox-group {
+    &.checkbox-group_other {
+        position: absolute;
+        top: 39px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        .el-checkbox {
+            display: block;
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 0;
+            padding-left: 18px;
+            &:hover {
+                background:#f0f0f0;
+            }
+        }
+    }
+}
+.cityListbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    li {
+        display: block;
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 0;
+        cursor: pointer;
+        padding-left: 18px;
+        &:hover {
+            background:#f0f0f0;
+        }
+        &.active{
+            background:#f0f0f0;
+        }
+    }
+}

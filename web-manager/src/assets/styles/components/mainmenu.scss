@@ -1,0 +1,208 @@
+@import "../rules.scss";
+.m-menu-con {
+    width: 180px;
+    height: 100%;
+    background: $bg-color-asideNav2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    .menuSub_cons_h2 {
+        display: none;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 1px solid #ced5de;
+    }
+    .m-menu-btn {
+        height: 70px;
+        border-bottom: 1px solid #2a3354;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            display: inline-block;
+            cursor: pointer;
+            padding: 15px;
+        }
+        em {
+            display: inline-block;
+            width: 34px;
+            height: 34px;
+            background: #585e91;
+            font-size: 18px;
+            line-height: 34px;
+            text-align: center;
+            border-radius: 50%;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        span {
+            margin-left: 10px;
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+    .m-menu-itemcon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        bottom: 10px;
+        .m-menu-ulcon {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: auto;
+        }
+        span {
+            font-size: 14px;
+        }
+    }
+    .el-menu {
+        color: #fff;
+        background: none;
+        .iconfont {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-right: 8px;
+            vertical-align: middle;
+            font-weight: normal;
+            &.icon-systemCenter {
+                &:before {
+                    content: "\e949";
+                }
+            }
+            &.icon-proCenter {
+                &:before {
+                    content: "\e952";
+                }
+            }
+            &.icon-infoCenter {
+                &:before {
+                    content: "\e948";
+                }
+            }
+            &.icon-memberCenter {
+                &:before {
+                    content: "\e947";
+                }
+            }
+            &.icon-vendorCenter {
+                &:before {
+                    content: '\e94c';
+                }
+            }
+            &.icon-financeCenter {
+                &:before {
+                    content: '\e951';
+                }
+            }
+            &.icon-versionsCenter {
+                &:before {
+                    content: '\e96c';
+                }
+            }
+            &.icon-promotionCenter {
+                &:before {
+                    content: '\e96a';
+                }
+            }
+            &.icon-mobileCenter {
+                &:before {
+                    content: '\e96b';
+                }
+            }
+            &.icon-orderCenter {
+                &:before {
+                    content: '\e94e';
+                }
+            }
+            &.icon-cmsCenter {
+                &:before {
+                    content: '\e946';
+                }
+            }
+        }
+    }
+    .el-menu-item, .el-submenu__title {
+        color: #fff;
+        height: auto;
+        line-height: 26px;
+        padding: 14px 20px;
+        border-right: none;
+        white-space: normal;
+        position: relative;
+        .m-menu-sub {
+            position: absolute;
+            left: 180px;
+        }
+    }
+    .el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item:hover, .el-menu--horizontal.el-menu--dark .el-submenu .el-submenu-title:hover, .el-menu-item:hover {
+        background-color: $bg-color-active2;
+        border-right: 4px solid $text-color-blue0ff;
+    }
+    .el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active, .el-menu-item.is-active {
+        background: $bg-color-active2;
+        border-right: 4px solid $text-color-blue0ff;
+        .iconfont {
+            color: $text-color-blue0ff;
+        }
+    }
+    .menuSub_cons {
+        position: absolute;
+        left: 180px;
+        .menuSub {
+            display: none;
+            width: 330px;
+            max-height: 300px;
+            overflow: auto;
+            padding: 0 20px;
+            min-height: 170px;
+            background: #fff;
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menuSub-item {
+            border-bottom: 1px solid #ced5de;
+            padding: 20px 0;
+            &:first-child {
+                padding-top: 0;
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+            h3 {
+                font-size: 13px;
+                font-weight: 600;
+                color: #687281;
+                height: 30px;
+                line-height: 1;
+            }
+            ul {
+                margin-left: -20px;
+                margin-top: -10px;
+                li {
+                    float: left;
+                    color: #687281;
+                    margin: 10px 0 0 20px;
+                    cursor: pointer;
+                    font-size: 12px;
+                    &.router-link-active {
+                        color: #3399ff;
+                    }
+                    &:hover {
+                        color: #3399ff;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,280 @@
+// 店铺中心样式
+.zqq-store-router {
+    background-color: #f3f5f8;
+    padding: 0;
+    .zq-icon {
+        margin-right: 5px;
+    }
+    .icon-nape {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+    }
+    .el-tabs__content {
+        height: 220px;
+    }
+}
+
+.backgroung {
+    background: #fff;
+    padding-bottom: 20px;
+}
+
+.top-compile {
+    padding: 10px 0 0 10px;
+    .left-portrait {
+        width: 94px;
+        height: 94px;
+        position: relative;
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+            width: 94px;
+            height: 94px;
+            border-radius: 50%;
+        }
+        span {
+            width: 100%;
+            height: 25px;
+            position: absolute;
+            left:0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,.2);
+            color: #fff;
+            text-align: center;
+            line-height: 25px;
+        }
+    }
+    .right-cont {
+        margin-left: 20px;
+        margin-top: 18px;
+        .companyName {
+            font-size: 14px;
+            font-weight: bold;
+            color: #6c7684;
+            line-height: 40px;
+        }
+        .license span {
+            display: inline-block;
+            padding-right: 16px;
+            color: #6c7684;
+            font-size: 12px;
+            line-height: 14px;
+            .icon-modification {
+                display: inline-block;
+                vertical-align: top;
+                width: 14px;
+                height: 14px;
+                font-size: 14px;
+                color: #ff900e;
+            }
+        }
+    }
+}
+
+.top-bottom {
+    margin-top: 16px;
+    // background: #f9fafd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    .across {
+        // width: 150px;
+        padding: 0 25px;
+        text-align: center;
+        border-right: 1px solid #dfe3ea;
+        &:last-child {
+            border: none;
+        }
+        .iconfont {
+            font-size: 16px;
+        }
+        .icon-indent {
+            color: #caaff7;
+        }
+        .icon-deliver {
+            color: #6ed4d5;
+        }
+        .icon-yesterday {
+            color: #e68b9e;
+        }
+        .icon-deal {
+            color: #81d3e8;
+        }
+        .icon-leijidingdanshu {
+            color: #e68b9e;
+        }
+        .icon-refuse {
+            color: #faa28d;
+        }
+        .icon-onsale {
+            color: #b9c8f7;
+        }
+        .icon-noton {
+            color: #fddf53;
+        }
+    }
+    li {
+        color: #6c7684;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        .iconfont {
+            width: 16px;
+            height: 16px;
+            font-size: 16px;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 16px;
+            text-align: center;
+            margin: 4px 4px 4px 0;
+        }
+    }
+    .figure {
+        font-size: 24px;
+        font-weight: bold;
+        color: #6c7684;
+        height: 36px;
+    }
+}
+
+.bottom-map {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 0 20px 15px 20px;
+    /*height: 315px;*/
+    .left-flow {
+        font-size: 14px;
+        color: #464c5b;
+        padding-left: 15px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .right-cat {
+        padding-right: 10px;
+    }
+
+}
+
+.el-tabs__nav {
+    float: right;
+}
+
+// ======
+.m-store-item {
+    margin-bottom: 25px;
+    .company-item {
+        .el-form-item {
+            margin-bottom: 16px;
+        }
+    }
+    .el-form-item {
+        margin: 5px 0;
+        .el-form-item__label {
+            line-height: 30px;
+        }
+        .el-form-item__content {
+            line-height: 30px !important;
+        }
+    }
+    .contact-item {
+        .el-form-item {
+            margin: 5px 0 16px 0;
+        }
+    }
+    .m-store-con {
+        overflow: hidden;
+        padding: 10px 0;
+    }
+    .shopImgUpload {
+        position: relative;
+        width: 106px;
+        height: 30px;
+        overflow: hidden;
+        .imgFile {
+            position: absolute;
+            opacity: 0;
+            left:0;
+            top:0;
+            font-size: 16px;
+        }
+    }
+    .store-img {
+        width: 122px;
+        height: 82px;
+        border: 1px solid #dedede;
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        span {
+            width: 18px;
+            height: 18px;
+            background-color: #fff;
+            text-align: center;
+            line-height: 18px;
+            font-size: 18px;
+            color: #e92600;
+            position: absolute;
+            right: -9px;
+            top: -9px;
+            border-radius: 50%;
+        }
+    }
+}
+
+// 证照管理
+.m-papersList-con {
+    ul {}
+    li {
+        width: 100px;
+        height: 176px;
+        margin: 20px 60px 0 20px;
+        float: left;
+    }
+    .uped, .nouped {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .uped {
+        position: relative;
+        span {
+            width: 18px;
+            height: 18px;
+            font-size: 18px;
+            line-height:1;
+            text-align: center;
+            position: absolute;
+            right: -9px;
+            top: -9px;
+            color: #ed2222;
+            background: #fff;
+            border-radius: 50%;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .up-name {
+        text-align: center;
+        min-height: 48px;
+        padding: 8px 0;
+        line-height: 16px;
+        color: #687281;
+    }
+    .up-status {
+        text-align: center;
+        &.red {
+            color: #ed2222;
+        }
+        &.succ {
+            color: #41a001;
+        }
+    }
+    .up-btn {
+        text-align: center;
+    }
+}

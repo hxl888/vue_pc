@@ -1,0 +1,235 @@
+.personInof *{
+    font-size: 12px;
+}
+.personInof {
+    background-color: #FFF;
+    .personInBox {
+        padding: 8px 16px 24px;
+        .passTit {
+            padding: 10px 0 20px;
+            font-size: 14px;
+            border-bottom: 1px solid #c2c2c2;
+        }
+        li{
+            list-style: none;
+        }
+        .pricing-span-header{
+            width: 110px;
+            float: left;
+            clear: left;
+        }
+        .widget-box{
+            padding: 0;
+            box-shadow: none;
+            margin: 5px 0;
+            border: 1px solid #CCC;
+        }
+        .transparent{
+            border-width: 0;
+        }
+        .widget-box.transparent > .widget-header{
+            background: none;
+            border-width: 0;
+            border-bottom: 1px solid #DCE8F1;
+            color: #4383B4;
+            padding-left: 3px;
+        }
+        .widget-header{
+            box-sizing: content-box;
+            position: relative;
+            min-height: 38px;
+            border-bottom: 1px solid #DDD;
+        }
+        .widget-header > .widget-title{
+            line-height: 36px;
+            padding: 0;
+            margin: 0;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .fontCol{
+            color: white;
+        }
+
+        h5.smaller{
+            font-size: 12px;
+        }
+        .lighter{
+            font-weight: lighter;
+        }
+        .widget-box.transparent > .widget-body{
+            border-width: 0;
+            background-color: transparent;
+        }
+        .widget-body{
+            background-color: #FFF;
+        }
+        .pricing-table-header{
+            padding-top: 0;
+            margin-top: 0;
+            text-align: left;
+            padding-left: 0;
+            list-style: none;
+            margin-left: 0;
+        }
+        .list-striped > li:nth-child(odd){
+            background-color: #FFF;
+        }
+        .pricing-table-header > li{
+            padding: 11px 0 7px 11px;
+            font-size: 12px;
+        }
+        .list-striped > li:nth-child(even){
+            background-color: #EEE;
+        }
+        .pricing-span-body{
+            float: left;width: 900px;
+            min-height:200px;
+            max-height: 580px;
+            overflow: auto;
+            padding:0 5px;
+        }
+        .pricing-span{
+            margin: 0;
+            width: 145px;
+            max-width: 150px !important;
+            min-width: 110px !important;
+            float: left !important;
+        }
+        .pricing-box-small{
+            box-shadow: none;
+            margin-left: -2px;
+            background-color: #FFF;
+            position: relative;
+            z-index: 10;
+        }
+        .pricing-span:hover .pricing-box-small{
+            transform: scale3d(1.02,1.03,1.03);
+            z-index: 100;
+            -moz-box-shadow:0px 2px 2px #999;
+            -webkit-box-shadow:0px 2px 2px #999;
+            box-shadow:0px 2px 2px #999;
+        }
+
+        .widget-color-blue > .widget-header{
+            background: #307ECC;
+            border-right: #fff;
+            text-align: center;
+        }
+        .pricing-table{
+            margin:0;
+            padding:0;
+        }
+        .pricing-table > li{
+            text-align: center;
+            padding: 7px 0;
+            height: 30px;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .pricing-span:hover .pricing-table > li{
+            padding: 8px 0;
+        }
+
+        .info{
+            overflow: hidden;
+            min-height: 300px;
+        }
+
+        .infoImg{
+            display: inline-block;
+            width: 220px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .infoImg .userName{
+            width: 179px;
+            height: 29px;
+            margin:auto;
+            text-align: center;
+            color: white;
+            line-height: 30px;
+            background: url("./assets/image/bg.png#uampic") no-repeat;
+            background-size: 100% 100%;
+        }
+
+        .infoImg .users_pic{
+            width: 120px;
+            height: 120px;
+            background: url("./assets/image/userInfo.png#uampic") no-repeat;
+            margin: 50px 20%;
+        }
+
+        .infoTab{
+            display: inline-block;
+            width: 280px;
+            min-height: 300px;
+            float: left;
+        }
+
+        .userLimit{
+            display: inline-block;
+            width: 240px;
+            height: 320px;
+            background: #edf3f4;
+            margin: 0 20px;
+            border: 1px solid #dcebf7;
+            position: relative;
+        }
+
+        .infoTab{
+            border: 1px solid #dcebf7;
+        }
+
+        .infoTab p{
+            height: 40px;
+            width: 100%;
+            border-bottom: 1px dotted #dcebf7;
+            box-border: border-size;
+        }
+        .infoTab :last-child{
+            border: none;
+        }
+        .infoTab p .title{
+            display: inline-block;
+            float: left;
+            width: 35%;
+            height: 39px;
+            line-height: 40px;
+            padding-left: 10px;
+            background: #edf3f4;
+
+        }
+        .infoTab p .content{
+            display: inline-block;
+            float: right;
+            height: 39px;
+            width: 65%;
+            line-height: 40px;
+            padding-left: 10px;
+        }
+
+        .xe-jurisdiction-panel-header {
+            height: 36px;
+            padding: 0 15px;
+            line-height: 36px;
+            font-size: 12px !important;
+            color: #ffffff;
+            background-color: #337ab7;
+        }
+
+        .xe-jurisdiction-panel-body {
+            height: 284px;
+            overflow: auto;
+        }
+    }
+}

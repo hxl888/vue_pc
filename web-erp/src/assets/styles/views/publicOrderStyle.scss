@@ -1,0 +1,147 @@
+@import "../rules.scss";
+.publicOrderStyle {
+    color: #687281;
+    font-size: 12px;
+}
+.publicorder-serch {
+    .el-input {
+        font-size: 12px;
+    }
+    .el-input__icon+.el-input__inner {
+        padding-right: 0;
+    }
+    .mar-rig30 {
+        margin-right: 30px;
+    }
+    .mar-rig15 {
+        margin-right: 15px;
+    }
+    .el-input__icon {
+        width: 30px;
+    }
+    .el-date-editor.el-input {
+        width: 130px;
+    }
+    .Cornet {
+        display: inline-block;
+        width: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: #b9bdc4;
+    }
+}
+.pub-toolbar {
+    margin: 23px 0 10px;
+    .el-button {
+        color: #687281;
+        background: #f5f5f5;
+        border: 1px solid #d1d8e0;
+    }
+    .el-button:focus, .el-button:hover {
+        color: #20a0ff;
+        background: #fff;
+        border-color: #20a0ff;
+    }
+    .iconfont {
+        font-size: 12px;
+        display: inline-block;
+        width: 15px;
+        height: 12px;
+        line-height: 12px;
+    }
+}
+/*表单部分*/
+.pub-tabDatacon {
+    margin-bottom: 30px;
+    .form_lab {
+        display: block;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: #fff;
+        border-radius: 3px;
+        margin-right: 3px;
+        &.remove_sp {
+            background: #fc8715;
+        }
+        &.lock_sp {
+            background: #4a7599;
+        }
+        &.special_sp {
+            background: #14ba82;
+        }
+        &.transport_sp {
+            background: #4c5998;
+        }
+        &.lack_sp {
+            background: #dc003f;
+        }
+    }
+}
+/*table详情显示*/
+.pub-tabDatadetails {
+    position: relative;
+    border-left: 1px solid #ced5de;
+    border-bottom: 1px solid #ced5de;
+    border-top-left-radius: 3px;
+    &:after {
+        position: absolute;
+        content: '';
+        right: 0;
+        bottom: 0;
+        top:30px;
+        border-right: 1px solid #ced5de;
+    }
+    .el-tabs--card>.el-tabs__header .el-tabs__item{
+        //border:1px solid #ced5de;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background: #f3f5f8;
+        color: #7b8693;
+        border: 1px solid #ced5de;
+        &:first-child {
+            border-left: none;
+        }
+        &.is-active {
+            color: #20a0ff;
+            background: #fff;
+            border-bottom: 1px solid transparent;
+        }
+    }
+    .el-tabs__item {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 16px;
+        color: #7b8693;
+        margin-right: 5px;
+    }
+    .el-tabs__content {
+        padding: 5px 20px 20px;
+    }
+    .detail_picbox {
+        padding: 10px 0;
+        img {
+            display: block;
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+/*买家信息tab列表*/
+.buyerInformation {
+    .el-form-item {
+        margin-right: 90px;
+        margin-bottom: 0;
+        text-align: left;
+        //margin-bottom: 15px;
+        width: 300px;
+        &.special_item {
+            margin-left: 554px;
+            margin-bottom: 10px;
+        }
+        &.no-marbot {
+            margin-bottom: 0;
+        }
+    }
+}

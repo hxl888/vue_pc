@@ -1,0 +1,74 @@
+@import "../rules.scss";
+.product-add {
+    .form_sub_btn {
+        margin: 30px 20px 320px;
+    }
+}
+.order-listbox {
+    color: #687281;
+    padding: 50px 24px;
+    .order-lis {
+        font-size: 12px;
+        color: #ccc;
+        .oder_ty {
+            display: inline-block;
+            width: 20px;
+            height:20px;
+            line-height:20px;
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+            background: #4898ff;
+            border-radius: 50%;
+        }
+        .add-cur {
+            display: inline-block;
+            width: 118px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border:1px dashed #b5c0ce;
+            border-radius: 4px;
+            margin: 0 20px 0 17px;
+            cursor: pointer;
+            &:hover {
+                color: #2480ff;
+                border:1px dashed #2480ff;
+            }
+            &.active {
+                color: #2480ff;
+                border:1px dashed #2480ff;
+            }
+        }
+    }
+    .order-border {
+        position: relative;
+        height: 30px;
+        &:before {
+            position: absolute;
+            left:10px;
+            top:0;
+            bottom: 0;
+            content: '';
+            border: 1px solid #4898ff;
+        }
+    }
+}
+.order-addresbox {
+    margin: 0 20px;
+    .el-table .cell {
+        font-weight: 600;
+    }
+    .addres_content {
+        padding: 20px 0 5px;
+        .addres_lis {
+            background: #f5f5f5;
+            font-size: 12px;
+            border:1px solid $border-color-5de;
+            padding: 0 9px;
+            line-height: 20px;
+            margin: 0 10px 15px 0;
+            border-radius: 4px;
+        }
+    }
+}

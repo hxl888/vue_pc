@@ -1,0 +1,117 @@
+.recycleBin {
+    .el-icon-upload2 {
+        color: #687281;
+    }
+    .el-icon-right {
+        margin-right: 5px;
+    }
+    .behavior {
+        margin-top: 20px;
+        padding: 10px 0 10px;
+        .el-button {
+            color: #687281;
+            background: #f5f5f5;
+            border: 1px solid #d1d8e0;
+        }
+        .el-button:focus, .el-button:hover {
+            color: #20a0ff;
+            background: #fff;
+            border-color: #20a0ff;
+        }
+    }
+    .imgs {
+        margin-top: 10px;
+        margin-bottom: 4px;
+    }
+    .el-table__header .is-leaf {
+        width: 90px;
+    }
+    .el-date-editor.el-input {
+        width: 130px;
+    }
+    .xe-input-l40 .el-input__inner {
+        width: 165px;
+    }
+    .zq-inquiry .el-input__inner {
+        width: 128px;
+    }
+    .cell .el-button {
+        padding: 0;
+    }
+}
+.greet{
+    margin-top: 20px;
+}
+.greet .enter{
+    font-size: 14px;
+    color: #687281;
+    display: inline-block;
+}
+.greet .con-text{
+    margin-top: 20px;
+}
+.contentSubmit{
+    width: 610px;
+    margin: 0 auto;
+    margin-top:26px;
+    .iconfont {
+        width: auto;
+        height: auto;
+    }
+}
+.contentSubmit .bigTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #464c5c;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contentSubmit .zqTime{
+    font-size: 14px;
+    color: #464c5b;
+    min-height: 35px;
+    line-height: 35px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.contentSubmit h3{
+    text-align: center;
+}
+.contentSubmit .continue{
+    color: #3399ff;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 35px;
+}
+.contentSubmit .zqTime{
+    text-align: center;
+}
+.contentSubmit .zq-conten{
+    text-align: center;
+}
+.characterBlue{
+    color:#2476f1;
+    font-size: 24px;
+    line-height: 50px;
+    vertical-align:middle;
+    display: inline-block;
+}
+.characterRed{
+    color:#fb4513;
+    font-size: 24px;
+    line-height: 50px;
+    vertical-align:middle;
+    display: inline-block;
+}
+.characterWin{
+    color:#2476f1;
+    font-size: 24px;
+    line-height: 50px;
+    vertical-align:middle;
+    display: inline-block;
+}
+
+
+

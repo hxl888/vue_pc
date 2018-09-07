@@ -1,0 +1,189 @@
+@import "../rules.scss";
+.addNew-box {
+    font-size: 12px;
+    .xeUpload {
+        margin-top: 4px;
+    }
+    .el-dialog__body {
+        padding-top: 8px!important;
+    }
+    //.el-form-item {
+    //    padding-top: 12px;
+    //}
+    .el-upload-list--picture .el-upload-list__item {
+        padding: 0!important;
+        height: 120px!important;
+    }
+    .el-upload-list--picture .el-upload-list__item-thumbnail {
+        width: 120px;
+        height: 120px;
+        margin-left: 0!important;
+        float: inherit!important;
+    }
+    .el-dialog__footer {
+        text-align: center!important;
+        padding: 15px 20px!important;
+        border-top: 1px solid #dce2ea;
+    }
+    .text_area {
+        position: relative;
+        .el-form-item__content {
+            width: 400px;
+        }
+        textarea {
+            padding-bottom: 20px;
+            height: 85px!important;
+            font-size: 12px!important;
+            resize: none;
+            outline: none;
+        }
+        .last-num {
+            position: absolute;
+            right: 10px;
+            bottom: -3px;
+            &.error {
+                color: #ff4949;
+            }
+        }
+    }
+    /*添加扩展属性*/
+    .add-extend-atb {
+        font-size: 12px;
+        padding:7px 20px 10px;
+        span {
+            display: inline-block;
+            padding: 8px 10px 7px;
+            border-radius: 4px;
+            cursor: pointer;
+            color: #687281;
+            border:1px solid #687281;
+            &:hover {
+                color: $text-color-blue0ff;
+                border:1px solid $text-color-blue0ff;
+            }
+        }
+    }
+    .extendData {
+        margin: 0 20px 20px;
+        .el-table .cell {
+            font-weight: 600;
+        }
+        .atribute-val {
+            .atri_lis,.el-tag {
+                //padding: 5px 8px 4px;
+                background: #f5f5f5;
+                margin-right: 10px;
+                border:1px solid #ced5de;
+                border-radius: 4px;
+                cursor: pointer;
+                color: #687281;
+                line-height: 24px;
+                height: 24px;
+                font-size: 12px;
+                .iconfont {
+                    color: #687281;
+                    display: inline-block;
+                    vertical-align: text-top;
+                    font-size: 19px;
+                    cursor: pointer;
+                    width: 12px;
+                    height:12px;
+                    text-align: center;
+                    line-height: 12px;
+                    overflow: hidden;
+                    //transform: scale(0.8,0.8);
+                }
+            }
+            .add_newAtr {
+                /*display: inline-block;
+                width: 18px;
+                height:18px;
+                text-align: center;
+                line-height: 18px;
+                background: $text-color-blue0ff;
+                color: #fff;
+                border-radius: 50%;
+                cursor: pointer;*/
+                .iconfont {
+                    display: inline-block;
+                    width: 18px;
+                    height:18px;
+                    font-size: 18px;
+                    text-align: center;
+                    line-height: 18px;
+                    vertical-align: text-bottom;
+                    color: $text-color-blue0ff;
+                    cursor: pointer;
+                }
+            }
+            .xe-input-smal90 {
+                margin-right: 10px;
+            }
+        }
+        .blue08f {
+            cursor: pointer;
+        }
+    }
+    &.basenewprop {
+        .add-extend-atb {
+            padding:7px 0 10px;
+        }
+        .extendData {
+            margin: 0 0 20px;
+        }
+        .checksure {
+            padding-top: 0;
+            .el-form-item__content {
+                margin-left: 0!important;
+            }
+        }
+    }
+    .dialog-footer {
+        //margin-bottom: 60px;
+        &.footer_com {
+            padding: 20px 0 20px;
+            border-top:1px solid #dce2ea;
+            text-align: center;
+        }
+    }
+    .brand-img {
+        margin-top: 10px;
+        overflow: hidden;
+        p {
+            float: left;
+            width: 122px;
+            height: 122px;
+            border:1px solid #bfcbd9;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+            span {
+                width: 100%;
+                height: 18px;
+                line-height: 18px;
+                text-align: center;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                color: #fff;
+                background: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+.tishi_title {
+    padding-bottom: 10px;
+    .first {
+        font-size: 13px;
+        line-height: 18px;
+        color: #687281;
+    }
+    .secon {
+        font-size: 12px;
+        color: #687281;
+        line-height: 16px;
+    }
+}
+.cor_red {
+    color: red;
+}

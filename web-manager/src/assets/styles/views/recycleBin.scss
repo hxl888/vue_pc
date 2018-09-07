@@ -1,0 +1,95 @@
+.recycleBin{
+    .pictim_bor {
+        padding: 0 6px;
+        font-size: 12px;
+    }
+    .editor {
+        .el-button {
+            padding: 0;
+        }
+       span {
+           color: #20a0ff;
+       }
+    }
+    .el-icon-upload2{
+        color:#687281;
+    }
+    .el-icon-right{
+        margin-right: 5px;
+    }
+    .behavior{
+        .iconfont {
+            display: inline-block;
+            width: 14px;
+            height: 1px;
+            line-height: 12px;
+        }
+        margin-top: 14px;
+        padding: 8px 0 4px;
+        .el-button {
+            color: #687281;
+            background: #f5f5f5;
+            border: 1px solid #d1d8e0;
+        }
+        .el-button:focus, .el-button:hover {
+            color: #20a0ff;
+            background: #fff;
+            border-color: #20a0ff;
+        }
+    }
+    .imgs{
+        margin-top:10px;
+        margin-bottom: 4px;
+    }
+    .zq-table{
+        margin-top:20px;
+    }
+    .zq-order{
+        margin-top:20px;
+    }
+    .zq-order p{
+        color:#687281;
+        font-size:12px;
+        margin-bottom:10px;
+    }
+    .zq-order p span{
+        padding-right:30px;
+    }
+}
+.el-input__inner{
+    font-size:12px;
+}
+.zq-restore{
+    padding:0;
+    color:#20a0ff;
+    span {
+        color:#20a0ff;
+    }
+}
+.cancel-adito {
+    color: #687281;
+    text-align: center;
+    .el-dialog__body {
+        padding: 0;
+    }
+    .el-dialog__headerbtn {
+        display: none;
+    }
+    .cancal-tit {
+        font-size: 16px;
+        height: 30px;
+    }
+    .cancal-pre {
+        font-size: 12px;
+        height: 32px;
+    }
+    .el-dialog__footer {
+        text-align: center;
+        padding: 15px 0;
+        border-top: 1px solid #dce2ea;
+    }
+}
+.el-input__inner, .el-select-dropdown__item {
+    height: auto;
+    padding: 8px 10px;
+}

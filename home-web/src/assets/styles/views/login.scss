@@ -1,0 +1,515 @@
+/* 设置持续时间和动画函数 */
+.slideIn-enter-active, .slideIn-leave-active {
+    transition: all .8s ease;
+}
+
+.slideIn-enter, .slideIn-leave-to {
+    opacity: 0;
+    transform: translate3d(0, -100px, 0);
+}
+.login_main{
+    /*height: 100%;*/
+    background: #f3f3f4;
+}
+.login_mainBox {
+    width: 100%;
+    /*height: 100%;*/
+    background: #f3f3f4;
+    color: #676a6c;
+    position: relative;
+    .content {
+        /*width: 300px;
+		height: 300px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -150px 0 0 -150px;*/
+    }
+    .logo {
+        color: #333;
+        font-size: 50px;
+        text-align: center;
+    }
+    .logo-des {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .item {
+        margin: 10px 0;
+    }
+    .login-btn {
+        margin: 20px 0;
+    }
+    .login-des {
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.2;
+        color: #999;
+    }
+}
+/*登录*/
+.login-main-box {
+    height: 100%;
+    .login-main {
+        padding-top: 15px;
+        height: 90%;
+        .fl_imganime {
+            position:relative;
+            padding-left: 75px;
+            width: 450px;
+            height: 310px;
+            .dttkehud,.qlimiandetu {
+                position: absolute;
+                left: 78px;
+                top: 15px;
+                display: inline-block;
+                width: 300px;
+                height: 300px;
+                border-radius: 150px;
+                background: url("./assets/image/11111_03.png#element");
+            }
+            .qlimiandetu {
+                background: url("./assets/image/11111_03.png#element");
+                span{
+                    position: absolute;
+                    &.qlimiandatu1 {
+                        left: 20px;
+                        top: 135px;
+                        width: 46px;
+                        height: 46px;
+                        background: url("./assets/image/kehuxiaotu1.png#element");
+                    }
+                    &.qlimiandatu2 {
+                        left: 120px;
+                        top: 10px;
+                        width: 44px;
+                        height: 44px;
+                        background: url("./assets/image/kehuxiaotu2.png#element");
+                    }
+                    &.qlimiandatu3 {
+                        right: 20px;
+                        top: 135px;
+                        width: 38px;
+                        height: 38px;
+                        background: url("./assets/image/kehuxiaotu3.png#element");
+                    }
+                    &.qlimiandatu4 {
+                        right: 120px;
+                        bottom: 10px;
+                        width: 44px;
+                        height: 44px;
+                        background: url("./assets/image/kehuxiaotu4.png#element");
+                    }
+                }
+            }
+            .kehutu1,.kehutu2,.kehutu3 {
+                position: absolute;
+            }
+            .kehutu1 {
+                width: 138px;
+                height: 138px;
+                left: 50%;
+                top: 50%;
+                margin-top: -61px;
+                margin-left: -68px;
+                z-index: 2;
+                background: url("./assets/image/kehutu1.png#element");
+            }
+            .kehutu3 {
+                left: 50%;
+                top: 50%;
+                margin-top: -89px;
+                margin-left: -96px;
+                background: url("./assets/image/kehutu3.png#element");;
+            }
+            .kehutu2 {
+                width: 157px;
+                height: 157px;
+                left: 50%;
+                top: 50%;
+                margin-top: -70px;
+                margin-left: -78px;
+                background: url("./assets/image/kehutu2.png#element");
+            }
+        }
+        .fr_formsub {
+            width: 435px;
+            padding-top:75px;
+            padding-right: 55px;
+            .forgetOrserge {
+                width: 100%;
+                line-height: 14px;
+                text-align: right;
+                font-size: 14px;
+                color: #999;
+            }
+        }
+    }
+}
+/*动画start*/
+.dlz .yueyingtu {
+    background-size: 100% 100%;
+    margin-right: 50px;
+    float: right;
+    width: 320px;
+    height: 252px;
+    position: relative;
+    top: 50px;
+}
+.yueyingyuan{
+    position: absolute;
+    width: 250px;
+    height: 246px;
+    left:50%;
+    top:50%;
+    margin-left: -125px;
+    margin-top: -123px;
+    border-radius: 125px;
+    -webkit-animation: load8 15s infinite linear;
+    animation: load8 15s infinite linear;
+}
+
+.yueyingyuan span{
+
+
+    width: 10px;
+    height:10px;
+    border-radius: 5px;
+    background: #000;
+    display: block;
+    position: absolute;
+}
+.yueyingyuan .spans1{
+    -webkit-animation: daxiao1 2s infinite linear;
+    animation: daxiao1 2s infinite linear;
+    background: #8697dc;
+    left: 48px;
+    top: 22px;
+}
+.yueyingyuan .spans2{
+    -webkit-animation: daxiao2 2s infinite linear;
+    animation: daxiao2 2s infinite linear;
+    background: #f3ce85;
+    right: -4px;
+    top: 100px;
+    animation-delay:0.3s;
+}
+.yueyingyuan .spans3{
+    -webkit-animation: daxiao3 2s infinite linear;
+    animation: daxiao3 2s infinite linear;
+    background: #dea5e6;
+    left: 71px;
+    bottom: 8px;
+    animation-delay:0.6s;
+}
+.yunyingwenzi{
+    width: 313px;
+    height:24px;
+    position: absolute;
+    top:50%;
+    margin-top: -12px;
+    left:50%;
+    margin-left: -151px;
+}
+.yueyingzhongjian{
+    width: 194px;
+    height:188px;
+    position: absolute;
+    top:50%;
+    margin-top: -94px;
+    left: 50%;
+    margin-left: -97px;
+    -webkit-animation: load81 15s infinite linear;
+    animation: load81 15s infinite linear;
+    background: url("./assets/image/yunyingtu7.png#element");
+}
+.yunyingbeijing{
+    opacity:.6;
+    width:304px;
+    height:137px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -152px;
+    margin-top: -68px;
+    background: url("./assets/image/yunyingtu6.png#element");
+}
+/*运营动画*/
+.fl_imganime {
+    &.fl_yunying {
+        padding-left: 0;
+    }
+}
+.yunyingwenzi {
+    width: 313px;
+    height: 24px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    margin-top: -12px;
+    left: 50%;
+    margin-left: -151px;
+    background: url("./assets/image/yunyingtu1.png#element");
+}
+.yuanzhuan {
+    width: 251px;
+    height: 246px;
+    background: url("./assets/image/yunyingtu5.png#element");
+}
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load81 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes daxiao1 {
+    0% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+}
+
+@keyframes daxiao2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes daxiao3 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+::-moz-placeholder {
+    color: #cccccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+
+/*客户*/
+.dttkehud{
+    -webkit-animation: load8 15s infinite linear;
+    animation: load8 15s infinite linear;
+}
+.qlimiandetu{
+    -webkit-animation: load8 40s infinite linear;
+    animation: load8 40s infinite linear;
+}
+.qlimiandetu .qlimiandatu1{
+    left: 20px;
+    top: 135px;
+}
+.qlimiandetu .qlimiandatu2{
+    left: 120px;
+    top: 10px;
+}
+.qlimiandetu .qlimiandatu3{
+    right: 20px;
+    top: 135px;
+}
+.qlimiandetu .qlimiandatu4{
+    right: 120px;
+    bottom: 10px;
+}
+.qlimiandetu span{
+    position: absolute;
+}
+.kehutu1,.kehutu2,.kehutu3{
+
+    position: absolute;
+
+}
+.kehutu3{
+    left:50%;
+    top:50%;
+    margin-top: -96px;
+    margin-left: -96px;
+    animation-duration: 2s;
+    -webkit-animation: kehudaxiao1 2s infinite linear;
+    animation: kehudaxiao1 2s infinite linear;
+
+
+}
+.kehutu2{
+    width: 157px;
+    height:157px;
+    left:50%;
+    top:50%;
+    margin-top: -78px;
+    margin-left: -78px;
+    -webkit-animation: kehudaxiao1 2s infinite linear;
+    animation: kehudaxiao1 2s infinite linear;
+}
+.kehutu1{
+    width: 143px;
+    height:140px;
+    left:50%;
+    top:50%;
+    margin-top: -70px;
+    margin-left: -71px;
+    z-index: 2;
+
+}
+@keyframes kehudaxiao1 {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 0.2;
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity:1;
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity:0.2;
+    }
+
+}
+/*动画end*/
+
+/*模太登陸窗口設置start*/
+    .chosen {
+        height: 240px;
+        width: 440px;
+        position: fixed;
+        left: 50%;
+        top:50%;
+        margin-top: -120px;
+        margin-left: -220px;
+      background-color: #fff;
+      border: 1px solid #999999;
+      z-index: 101;
+    }
+    .chosen ul {
+    width: 54%;
+    height: auto;
+    text-align: center;
+    margin-top: 2px;
+    float: left;
+}
+
+.chosen ul li {
+    width: 103px;
+    height: 30px;
+    margin: 0 auto;
+    background: #2fb3ff;
+    border-radius: 3px;
+    margin-top: 15px;
+    border: 0;
+    float: left;
+    margin-right: 15px;
+}
+.chosen ul li:last-child{
+  margin-right: 0;
+}
+
+.chosen ul li:hover {
+  background: #0493e6;
+}
+
+.chosen ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #cecac5;
+    top: 0px;
+    z-index: 100;
+    opacity: 0.5;
+}
+.chosen .hynul {
+    margin-top: 47px;
+}
+.chosen .tit_show {
+    position: absolute;
+    left: 0;
+    top: 24px;
+    right: 0;
+    width: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #545454;
+    &:before {
+        content:'';
+        position: absolute;
+        left: 20%;
+        top: 39%;
+        width: 50px;
+        font-size: 0;
+        overflow: hidden;
+        border-bottom: 1px solid #545454;
+    }
+    &:after {
+        content:'';
+        position: absolute;
+        right: 20%;
+        top: 39%;
+        width: 50px;
+        font-size: 0;
+        overflow: hidden;
+        border-bottom: 1px solid #545454;
+    }
+}
+/*模太登陸窗口設置end*/

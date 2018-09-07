@@ -1,0 +1,147 @@
+.zh-carousel {
+    position: relative;
+    height: 440px;
+    margin: 10px 15px;
+    background: url("./assets/image/left_nby1.png#bgimg-alone") repeat-x;
+    .zh-crar_banner{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .el-carousel__item h3 {
+        color: #475669;
+        font-size: 14px;
+        opacity: 0.75;
+        line-height: 150px;
+        margin: 0;
+    }
+
+    .el-carousel__item:nth-child(2n) {
+        background-color: #99a9bf;
+    }
+
+    .el-carousel__item:nth-child(2n+1) {
+        background-color: #d3dce6;
+    }
+}
+
+.zh-copyrights {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 3px double $border-color-e5e;
+    padding: 10px 0;
+    p {
+        line-height: 36px;
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+    }
+}
+/**
+    更新记录弹窗
+ */
+.reminder {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 390px;
+    width: 320px;
+    background: #fff;
+    z-index: 700;
+    -webkit-box-shadow: 0 5px 10px 0;
+    -moz-box-shadow: 0 5px 10px 0;
+    box-shadow: 0 5px 10px 0;
+    .reminderHeader{
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        background: #008bca;
+        color: #fff;
+        padding: 0 10px;
+    }
+    .reminderBody:before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        border-left: 1px dotted #ccc;
+        margin-left: 9px;
+    }
+    .reminderBody{
+        padding: 10px 5px;
+        overflow: auto;
+        height: 336px;
+        .reminderFul{
+            margin: 0 10px;
+            padding: 0 10px;
+            div{
+                font-size: 14px;
+                height: 20px;
+                line-height: 24px;
+            }
+            span{
+                position: relative;
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                background: #0175bd;
+                border-radius: 7.5px;
+                margin-left: -18px;
+                float: left;
+                opacity: 0.3;
+            }
+            .innerCircle{
+                width: 9px;
+                height: 9px;
+                margin-top: 3px;
+                margin-left: -15px;
+                opacity: .8;
+            }
+            p{
+                float: left;
+                padding: 0 0 0 5px;
+                margin-top: -4px;
+            }
+            ul{
+                margin-left: 5px;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+        }
+        .serial {
+            margin-left: 15px;
+            margin-top: -24px;
+        }
+        .homology {
+            font-size: 12px !important;
+            height: auto !important;
+        }
+    }
+    .pClose {
+        float: right;
+        padding-right: 10px;
+        button {
+            color: #fff;
+            background: transparent;
+            border: 0;
+            outline:none;
+            cursor: pointer;
+        }
+    }
+    li.circle {
+        margin-bottom: 0 !important;
+    }
+    .circle:before {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #ddd;
+        margin-left: -18.8px;
+        margin-top: 8.5px;
+    }
+}

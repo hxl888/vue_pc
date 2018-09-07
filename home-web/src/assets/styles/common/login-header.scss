@@ -1,0 +1,517 @@
+
+.tmzz{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: #e9eaec;;
+    opacity: 0.9;
+    z-index: 1;
+    border-bottom: 2px solid #1994D4;
+}
+.tmzz .tmzz_div{
+    margin: 0 auto;
+    width: 960px;
+    height: 70px;
+}
+
+.tmzz .tmzz_tu{
+    float: left;
+    width: 198px;
+    height: 59px;
+    margin: 5px 30px 0 15px;
+    background: url("./assets/image/logo.png#comhea");
+}
+
+.tmzz .tmzz_ul{
+    float: left;
+    width: 454px;
+    height: 100%;
+    position: relative;
+}
+
+.tmzz .tmzz_ul .tmzz_ul_list{
+    float: left;
+    width:25%;
+    height: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+.tmzz .tmzz_ul .tmzz_ul_list.onbg{
+    background: #008AD1;
+}
+.tmzz .tmzz_ul .tmzz_ul_list .tmzz_ul_lista.onbg{
+    color: #fff;
+}
+.tmzz .tmzz_ul .tmzz_ul_list .tmzz_ul_lista{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    float: left;
+    color: #303030;
+}
+
+
+
+.tmzz .tmzz_dl{
+    position: relative;
+    float: left;
+    z-index: 333;
+    width: 260px;
+    height: 100%;
+    .dl_left {
+        position: relative;
+        z-index: 666;
+        width: 127px;
+    }
+    .dl_right {
+        width: 127px;
+    }
+}
+.tmzz .tmzz_dl .mfzc,.tmzz .tmzz_dl .dengl{
+    display: block;
+    float: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #3676cf;
+    margin: 20px 0 0 10px;
+    border-radius: 5px;
+    color: #303030;
+    font-size: 14px;
+}
+.tmzz .tmzz_dl .mfzc:hover,.tmzz .tmzz_dl .dengl:hover{
+    background: #3676cf;
+    color: #fff;
+}
+.dlul{
+    float: left;
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 77px;
+    top: 53px;
+}
+.dlul li{
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #3676cf;
+    margin: 4px 0 0 10px;
+    border-radius: 5px;
+    color: #303030;
+    font-size: 14px;
+}
+
+
+
+
+.tmzz .tmzz_dl .adBjcla{
+    background: #3676cf;
+    color: #fff;
+}
+.tmzz .tmzz_dl a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-size: 14px;
+    color: #008ac7;
+    em{
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        position: relative;
+        top:5px;
+        &.hgzt{
+            display: none;
+            background: url("./assets/image/user-active.png#comhea");
+        }
+        &.cszt {
+            background: url("./assets/image/user.png#comhea");
+        }
+        &.cszc{
+            background: url("./assets/image/record.png#comhea");
+        }
+        &.hgzc {
+            display: none;
+            background: url("./assets/image/record-active.png#comhea");
+        }
+    }
+}
+ a:hover{
+    color: #015e87;
+}
+.hgzt,.hgzc{
+    display: none;
+}
+.tmzz .tmzz_dl .dl_right a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 333;
+    text-align: center;
+    line-height: 70px;
+    font-size: 14px;
+    color: #008ac7;
+}
+.tmzz .tmzz_dl .dl_right a:hover{
+    color: #015e87;
+}
+ a:hover .cszt{
+    display: none;
+}
+ a:hover .hgzt{
+    display: inline-block;
+}
+.tmzz .tmzz_dl .dl_right a:hover .hgzc{
+    display: inline-block;
+}
+.tmzz .tmzz_dl .dl_right a:hover .cszc {
+    display: none;
+}
+
+ .cgsjh{
+    width: 100%;
+    height: 100%;
+    line-height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    color: #008ac7;
+
+}
+
+ .cgsjh .hyn{
+    width: 60px;
+    height: 100%;
+    display: block;
+    font-size: 14px;
+    color: #404040;
+
+}
+
+ .hghyn{
+    display: none;
+    width: 160px;
+    height: 280px;
+    position: absolute;
+    left: -39px;
+    top: 49px;
+    z-index: 2;
+}
+ .djdl{
+    /*display: none;*/
+    width: 440px;
+    height: 178px;
+    position: absolute;
+    left: -170px;
+    top: 55px;
+    z-index: 9999;
+    border:1px solid #e8e8e8;
+    background: #fff;
+    .tri_white {
+        position: absolute;
+        left: 52%;
+        top: -10px;
+        .firs {
+            width: 0;
+            height: 0;
+            border-top: none;
+            border-right:10px solid transparent;
+            border-left:10px solid transparent;
+            border-bottom:10px solid #fff;
+            overflow-x: hidden;
+            display: inline-block;
+            font-size: 0 !important;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -6px;
+            z-index: 666;
+        }
+        .con {
+            width: 0;
+            height: 0;
+            border-right:10px solid transparent;
+            border-left:10px solid transparent;
+            border-bottom:10px solid #e8e8e8;
+            overflow-x: hidden;
+            display: inline-block;
+            font-size: 0 !important;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -6px;
+            z-index: 10;
+        }
+    }
+}
+ .hghyn .gb:hover{
+
+    color: #ff0000;
+
+}
+ .hghyn .hyndl{
+    width: 100%;
+    height: 155px;
+    float: left;
+    text-align: center;
+}
+ .hghyn .hyndl dt{
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+ .hghyn .hyndl dd{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #404040;
+    text-align: center;
+}
+ .hghyn p{
+    width: 80%;
+    height: 30px;
+    font-size: 14px;
+    color: #404040;
+    text-align: center;
+    margin-left: 10%;
+    border-top: 1px solid #ccc;
+}
+ .hghyn p a{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #f43737;
+    text-align: center;
+    line-height: 45px;
+}
+ .hghyn p a:hover{
+    color: #c50000;
+}
+
+ .hghyn .hynul{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+}
+ .hghyn .hynul .hynulli{
+    width: 103px;
+    height: 30px;
+    margin: 0 auto;
+    background: #2fb3ff;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: 0;
+}
+ .hghyn .hynul .hynulli:hover{
+    background: #0493e6;
+}
+ .hghyn .hynul .hynulli a{
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+ .djdl .gb{
+    width: 20px;
+  height: 12px;
+  float: right;
+  margin-top: 12px;
+  color: #ccc;
+  padding-right: 30px;
+  box-sizing: border-box;
+  text-align: right;
+  background: url("./assets/image/close.png#comhea") no-repeat;
+  cursor: pointer;
+}
+ .djdl .gb:hover{
+    cursor: pointer;
+    background: url("./assets/image/closeactive.png#comhea")  no-repeat;
+}
+
+/*donghua*/
+
+ .djdl .hynol{
+    width: 46%;
+    height: 83%;
+    text-align: center;
+    margin-top: 2px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.hynol .hynolli{
+    display: none;
+    position: absolute;
+    z-index:333;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.hynolli .donghuadiv{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.donghuadiv .divleft{
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    left: 50%;
+    margin-left: -59px;
+    top: 50%;
+    margin-top: -42px;
+    background: url("./assets/image/1_03.png#comhea");
+}
+.donghuadiv .divright{
+        width: 124px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 50%;
+    margin-top: -25px;
+    background: url("./assets/image/1_04.png#comhea");
+}
+.donghuadiv .divleft1{
+        width: 71px;
+    height: 84px;
+    position: absolute;
+    left: 50%;
+    margin-left: -59px;
+    top: 50%;
+    margin-top: -34px;
+    background: url("./assets/image/1_10.png#comhea");
+}
+.donghuadiv .divright1{
+        width: 124px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -61px;
+    top: 50%;
+    margin-top: -13px;
+    background: url("./assets/image/1_25.png#comhea");
+}
+.donghuadiv .divleft2{
+    width: 110px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    top: 50%;
+    margin-top: -38px;
+    background: url("./assets/image/1_061.png#comhea");
+}
+.donghuadiv .divright2{
+    width: 69px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 50%;
+    margin-top: -38px;
+    background: url("./assets/image/1_081.png#comhea");
+}
+.donghuadiv .divleft3{
+        width: 71px;
+    height: 84px;
+    position: absolute;
+    left: 50%;
+    margin-left: -33px;
+    top: 50%;
+    margin-top: -35px;
+    background: url("./assets/image/1_16.png#comhea");
+}
+.donghuadiv .divright3{
+        width: 124px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -61px;
+    top: 50%;
+    margin-top: -5px;
+    background: url("./assets/image/1_20.png#comhea");
+}
+.donghuadiv .divleft4{
+        width: 71px;
+    height: 84px;
+    position: absolute;
+    left: 50%;
+    margin-left: -51px;
+    top: 50%;
+    margin-top: -34px;
+    background: url("./assets/image/1_28.png#comhea");
+}
+.donghuadiv .divright4{
+        width: 124px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -61px;
+    top: 50%;
+    margin-top: 10px;
+    background: url("./assets/image/1_13.png#comhea");
+}
+.donghuadiv .divleft5{
+    width: 71px;
+    height: 84px;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -26px;
+    background: url("./assets/image/1_18.png#comhea");
+}
+.donghuadiv .divright5{
+    width: 124px;
+    height: 102px;
+    position: absolute;
+    left: 50%;
+    margin-left: -61px;
+    top: 50%;
+    margin-top: -16px;
+    background: url("./assets/image/1_22.png#comhea");
+}
+ .djdl .hynul{
+    width: 54%;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+ .djdl .hynul .hynulli{
+    width: 103px;
+    height: 30px;
+    margin: 0 auto;
+    background: #2fb3ff;
+    border-radius: 3px;
+    margin-top: 15px;
+    border: 0;
+    float: left;
+    margin-right: 15px;
+}
+ .djdl .hynul .hynulli:hover{
+    background: #0493e6;
+}
+ .djdl .hynul .hynulli a{
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+

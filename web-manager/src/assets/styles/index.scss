@@ -1,0 +1,16 @@
+@import "./rules.scss";
+@import "./common/index.scss";
+
+//全局通用组件css
+@import "./components/header.scss"; // 头部
+@import "./components/mainmenu.scss"; // mainmenu
+@import "./components/xeImgUpload.scss"; // 上传组件
+
+/*公共弹框样式*/
+@import "./views/addNewAlert.scss";
+/*公共查看详情样式*/
+@import "./views/releaseGoods.scss";
+@import "./views/recycleBin.scss";
+@import "./views/zydev.scss";
+@import "./views/mobileCenter.scss";  // 移动中心
+@import "./views/financeCenter.scss";  // 财务中心

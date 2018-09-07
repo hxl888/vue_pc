@@ -1,0 +1,218 @@
+// 营销中心
+
+//营销中心 -详情页
+.contentDetails-Box {
+    min-height: 400px;
+    .item-head {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e9e9e9;
+        .item-tit {
+            font-size: 14px;
+            color: #464c5b;
+            font-weight: bold;
+        }
+    }
+}
+.detalTabl_user{
+    width: 330px;
+    margin-left: 108px;
+    .serial{
+        width: 30px;
+    }
+    .back{
+        margin-top: 20px;
+    }
+}
+.details-content{
+    color: #687281;
+    margin: 20px 0;
+}
+.detalls_flr {
+    line-height: 32px;
+    margin: 5px 0;
+    .detai_label {
+        padding-right: 5px;
+        min-width: 107px;
+        text-align: right;
+    }
+    .detai_list {
+        max-width: 850px;
+    }
+    .addres_lis {
+        max-width: 850px;
+        .lis_flr {
+            display: inline-block;
+            padding: 0 10px;
+            line-height: 20px;
+            background: #f5f5f5;
+            border: 1px solid #ced5de;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+    }
+}
+
+//营销中心 saletype
+.sub-favorable{
+    margin-right: -40px;
+}
+.favorable{
+    width: 300px;
+    position: relative;
+    margin: 20px 25px 40px 10px;
+    float: left;
+    .null-head{
+        height: 10px;
+        background-color: #ff5c93;
+        border-radius: 4px;
+    }
+    .discount{
+        height: 170px;
+        background-color: #fff0f5;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        .icon-applyfor{
+            font-size: 50px;
+            color: #ff5c93;
+            text-align: center;
+            display: inherit;
+        }
+        p{
+            text-align: center;
+            font-size: 12px;
+            color: #3c414e;
+            line-height: 21px;
+            padding: 0px 40px 10px;
+        }
+        .coupon{
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 30px;
+            color: #2c323f;
+            padding-bottom: 3px;
+        }
+    }
+    .dredge{
+        background-color: #fddde8;
+        padding-top: 20px;
+        height: 110px;
+        p{
+            text-align: center;
+            color: #545966;
+            font-size: 12px;
+            line-height: 30px;
+        }
+        .chief{
+            background-color: #ff5c93;
+            color: #fff;
+            border-radius: 20px;
+            border: 0;
+            text-align: center;
+            line-height: 30px;
+            width: 130px;
+            height: 30px;
+            display: inherit;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+    }
+    .lenull{
+        background: #fff;
+        width: 15px;
+        height:15px;
+        border-radius: 50%;
+        position: absolute;
+        left: -6px;
+        bottom: 102px;
+    }
+    .renull{
+        background: #fff;
+        width: 15px;
+        height:15px;
+        border-radius: 50%;
+        position: absolute;
+        right: -6px;
+        bottom: 102px;
+
+    }
+}
+/*订单满减*/
+.blue-favorable{
+    .null-head01{
+        background-color: #50a9fc;
+    }
+    .discount01{
+        background-color: #ebf6ff;
+        .icon-manjian1{
+            color: #50a9fc;
+        }
+    }
+    .dredge01{
+        background-color: #d0eaff;
+        .chief01{
+            background-color: #50a9fc;
+            display: inherit;
+            margin: 0 auto;
+        }
+    }
+}
+/*订单满折*/
+.orange-favorable{
+    .null-head02{
+        background-color: #ff8726;
+    }
+    .discount02{
+        background-color: #ffefe2;
+        .icon-zuidizhekou1{
+            color: #ff8726;
+        }
+    }
+    .dredge02{
+        background-color: #ffdec3;
+        .chief02{
+            background-color: #ff8726;
+            display: inherit;
+            margin: 0 auto;
+        }
+    }
+}
+/*未上线功能*/
+.gray-favorable{
+    .null-head03{
+        background-color: #a5a5a5;
+    }
+    .discount03{
+        background-color: #efefef;
+        .icon-manjian1{
+            color: #747474;
+        }
+        .icon-zuidizhekou1{
+            color: #747474;
+        }
+    }
+    .dredge03{
+        height: 110px;
+        background-color: #dedede;
+        .chief03{
+            background-color: #a5a5a5;
+            display: inherit;
+            margin: 10px auto;
+        }
+    }
+}
+
+// ====
+
+.el-tree-dialog {
+    .el-dialog--small {
+        width: 500px;
+    }
+    .el-dialog__body {
+        padding: 20px;
+    }
+}
+.el-procoupon {
+    .el-dialog--small {
+        width: 1000px;
+    }
+}

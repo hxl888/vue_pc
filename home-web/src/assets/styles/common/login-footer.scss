@@ -1,0 +1,149 @@
+.login-footbox {
+    .fot-top {
+        height: 65px;
+        background: #e9eaec;
+        .fot_top_hea {
+            margin:auto;
+            width: 960px;
+            .hea_lis {
+                width: 127px;
+                height: 37px;
+                //vertical-align: middle;
+                margin: 15px 32px 13px;
+                img{
+                    display: block;
+                    margin: auto;
+                }
+                &.hea_lis01 {
+                    background: url("./assets/image/pass_nby_120.png#comfot");
+                }
+                &.hea_lis02 {
+                    background: url("./assets/image/pass_nby_122.png#comfot");
+                }
+                &.hea_lis03 {
+                    background: url("./assets/image/pass_nby_124.png#comfot");
+                }
+                &.hea_lis04 {
+                    background: url("./assets/image/pass_nby_126.png#comfot");
+                }
+                &.hea_lis05 {
+                    background: url("./assets/image/pass_nby_128.png#comfot");
+                }
+            }
+        }
+    }
+    .fot-bot {
+        position: relative;
+        width: 100%;
+        height: 238px;
+        background: #231e17;
+        .ft_div {
+            width: 960px;
+            height: 100%;
+            margin: 0 auto;
+            .ft_div1 {
+                width: 25%;
+                height: 90%;
+                h3{
+                    width: 100%;
+                    text-align: center;
+                    line-height: 75px;
+                    font-size: 16px;
+                    color: #999;
+                    font-weight: 400;
+                }
+                ul{
+                    width: 100%;
+                    height: 150px;
+                    box-sizing: border-box;
+                    li{
+                        width: 100%;
+                        height: 30px;
+                        line-height: 30px;
+                        float: left;
+                        color: #696969;
+                        text-align: center;
+                        position: relative;
+                        font-size: 14px;
+                        a {
+                            font-size: 14px;
+                            color: #696969;
+                        }
+                        &.ewm {
+                            width: 100%;
+                            height: 30px;
+                            float: left;
+                            color: #696969;
+                            position: relative;
+                            .ewm1 {
+                                position: absolute;
+                                top: -190px;
+                                left: 0;
+                                width: 153px;
+                                height:150px;
+                                display: none;
+                                background: url("./assets/image/pass_nby_71.png#comfot");
+                            }
+                        }
+                        &.ewm:hover .ewm1{
+                            display: block;
+                        }
+                        small {
+                            width: 30px;
+                            height: 25px;
+                            position: absolute;
+                            left: 50px;
+                            top:2px;
+                            &.h_weixin {
+                                background: url("./assets/image/pass_nby_108.png#comfot");
+                            }
+                            &.h_weibo {
+                                background: url("./assets/image/pass_nby_106.png#comfot");
+                            }
+                            &.h_tieba {
+                                width: 23px;
+                                height:22px;
+                                background: url("./assets/image/tieba.png#comfot");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .tel_play {
+            width: 15%;
+            height: 35%;
+            position: absolute;
+            right: 10px;
+            top: 90px;
+            ul {
+                width: 100%;
+                height: 150px;
+                box-sizing: border-box;
+                li {
+                    width: 100%;
+                    height: 30px;
+                    float: left;
+                    color: #696969;
+                    position: relative;
+                    small {
+                        width: 30px;
+                        height: 25px;
+                        position: absolute;
+                        left: -30px;
+                    }
+                }
+            }
+        }
+    }
+    .copy {
+        background: #231e17;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #696969;
+        font-size: 14px;
+        border-top: 1px solid #2e2921;
+    }
+}

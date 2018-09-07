@@ -1,0 +1,19 @@
+@import "./rules.scss";
+@import "./common/index.scss";
+
+//全局通用组件css
+@import "./components/header.scss"; // 头部
+@import "./components/mainmenu.scss"; // mainmenu
+@import "./components/xeImgUpload.scss"; // 上传组件
+
+@import "./views/publicOrderStyle.scss"; // 公共订单样式
+@import "./views/addNewAlert.scss"; // 弹框样式
+@import "./views/zydev.scss"; // 冯振亚scss
+@import "./views/recycleBin.scss"; // 张琴琴scss
+
+// =====按中心级别分scss
+@import "./views/storecenter.scss";
+
+// 营销中心
+@import "./views/salesCenter.scss";
+

@@ -1,0 +1,156 @@
+.main-wrap {
+    height: 100%;
+    background:#f5f5f5;
+}
+@media screen and (min-width: 1200px){
+    .tel_play {
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px)  {
+    .tel_play {
+        display: none;
+    }
+}
+
+.login-main-box {
+    width: 960px;
+    /*height: 540px;*/
+    padding-bottom: 30px;
+    background:#fff;
+    margin: 0px auto;
+    .hea-tit {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        padding-left: 85px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eeeff0;
+        font-weight: 400;
+    }
+    .reger-box {
+        padding:60px 20px  20px;
+        .regForm-box {
+            width:390px;
+            padding-top:10px;
+            .form_yzm {
+                height:36px;
+                .yzm_tex {
+                    width:288px;
+                    padding-right:20px;
+                }
+                .yam_tim {
+                    button{
+                        width:102px;
+                        &.phone_cod {
+                            background: #eef1f6;
+                            color: #1f2d3d;
+                            border: none;
+                        }
+                    }
+                }
+            }
+            .chekobox {
+                padding-left:120px;
+                height:44px;
+                line-height: 16px;
+                font-size: 14px;
+                .fl {
+                    a{
+                        color: #008BCA;
+                    }
+                    a:hover {
+                        text-decoration:underline;
+                    }
+                }
+                .fr {
+                    cursor: pointer;
+                    a:hover {
+                        color: #008BCA;
+                    }
+                }
+            }
+        }
+        .animImg-box {
+            position: relative;
+            width:384px;
+            height:327px;
+            margin-top: 20px;
+            .hzhbbjt {
+                width: 240px;
+                height:240px;
+                margin-left: 39px;
+                background: url("./assets/image/yuanqq.png#register");
+            }
+            .zhuanqq {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 277px;
+                height: 239px;
+                margin-left: -172px;
+                margin-top: -185px;
+                background: url("./assets/image/hezuohuoban.png#register");
+            }
+            .hzhbdh {
+                position: absolute;
+                width: 220px;
+                height: 220px;
+                left: 78px;
+                top: 0;
+                z-index: 0;
+                border-radius: 100%;
+                .hzhbdhOne {
+                    position: absolute;
+                    width: 171px;
+                    height: 186px;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -116px;
+                    margin-top: -90px;
+                    background: url("./assets/image/touyuan.png#register");
+                    background-size: 100% 100%;
+                }
+                .hzhbdhTwo {
+                    position: absolute;
+                    width: 180px;
+                    height: 138px;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -128px;
+                    margin-top: -64px;
+                    background: url("./assets/image/jigehuoban.png#register");
+                    background-size: 100% 100%;
+                }
+            }
+        }
+    }
+/*注册成功页面*/
+    .regis_succes {
+        position: relative;
+        height: 460px;
+        background: #fff;
+        text-align: center;
+        padding-top: 70px;
+        .cg {
+            h4 {
+                text-align: center;
+                width: 100%;
+                height: auto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 80px;
+            }
+            p {
+                color:#ba5c35;
+                font-size:14px;
+                padding-bottom: 75px;
+            }
+            .btn2 {
+                width: 300px;
+                margin: auto;
+            }
+        }
+    }
+}

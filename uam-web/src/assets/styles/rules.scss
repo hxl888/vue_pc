@@ -1,0 +1,115 @@
+
+.xe-page-content {
+    min-height: 100%;
+    padding: 8px 16px 24px;
+}
+
+.xe-page-content * {
+    font-size: 12px !important;
+}
+
+.xe-page-content .el-input__inner, .xe-page-content .el-button, .xe-page-content .el-textarea__inner {
+    border-radius: 0 !important;
+}
+.el-button {
+    border-radius: 0 !important;
+}
+
+//两列时 input 宽度
+
+.xe-input-col2 {
+
+    width: 252px !important;
+}
+
+.xe-input-col3 {
+
+    width: 352px !important;
+}
+
+.xe-input3-col3 {
+    width: 220px !important;
+}
+
+//title 加分割线
+
+.xe-page-header {
+
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.xe-page-header p {
+
+    font-size: 14px !important;
+    color: #383838;
+}
+
+// 分页 在分页外包个div 应用在div上
+.xe-page-content .xe-pagination-panel {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+//覆盖disabled 禁止样式
+.el-input.is-disabled .el-input__inner {
+    cursor: default;
+}
+
+.el-select .el-input.is-disabled .el-input__inner{
+    cursor: default;
+}
+
+.xe-page-content .xe-router-link {
+    color: #20a0ff;
+}
+
+.xe-page-content .xe-router-link:hover {
+    color: #4db3ff;
+}
+
+.xe-page-content .xe-textBtn:after{
+    content: '|';
+    margin-left:10px;
+    color:#999;
+}
+
+.xe-page-content  .xe-input-readonly-color input {
+    background-color: #eef1f6 !important;
+    border-color: #d1dbe5;
+    color: #bbb !important;
+}
+
+.xe-page-content  .xe-input-readonly-color textarea {
+    background-color: #eef1f6 !important;
+    border-color: #d1dbe5;
+    color: #bbb !important;
+}
+
+.xe-page-content .breadcrumb-con{
+    margin-top: 7px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+//
+//.el-input input[placeholder] {
+//    color:red !important;
+//}
+//主页面‘添加’按钮外部div类名
+.xe-page-content .xe-addbtn-panel{
+    margin-top: -4px;
+    padding-bottom: 16px;
+}
+
+.xe-page-content .xe-textbtn-danger{
+    color:#ff0000;
+}
+.xe-page-content .xe-textbtn-danger:hover{
+    color:#ff6d6d;
+}
+.xe-adaption{
+    max-width: 1150px;
+}

@@ -1,0 +1,216 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/*页面中所有的input 从element-ui 的圆角 都转换成直角*/
+.el-input__inner {
+    border-radius: 0px;
+}
+.el-button {
+    border-radius: 0px!important;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom */
+a {
+    color: #7e8c8d;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    font-weight: 200;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.clearfix:after{font-size:0;display:block;visibility:hidden;clear:both;height:0;content:' '}
+*:first-child+html .clearfix,*html .clearfix,.zoom{zoom:1}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main-contanier {
+    min-width: 1200px;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    right: 0px;
+    bottom: 0px;
+    background: #fff;
+    //overflow: auto;
+}
+//.page-con {
+//    position: absolute;
+//    left: 120px;
+//    top: 0;
+//    right: 0;
+//    bottom: 0;
+//}
+.page-con.page-con-active {
+    padding-left: 180px;
+}
+.main-01-router {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 60px;
+    overflow: auto;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+.page-con.page-con-active .main-01-router{
+    left: 180px;
+}
+
+// home面包屑
+.zh-breadcrumb {
+    height: 41px;
+    border-bottom: 1px solid $border-color-e5e;
+    background: $bg-color-f5f;
+    padding: 0 16px;
+    .el-breadcrumb {
+        line-height: 40px;
+        .el-breadcrumb__item {
+            &:last-child {
+                .el-breadcrumb__item__inner {
+                    color: #555;
+                }
+            }
+        }
+        .el-breadcrumb__item__inner {
+            color: $text-color-4C8;
+        }
+    }
+}
+
+
+/*面包屑导航样式*/
+.breadcrumb-con {
+    margin-top:0;
+    padding-bottom:15px;
+    border-bottom:1px solid #e8e8e8;
+}
+.main-right-con {
+    padding: 20px;
+}
+
+// 分页
+.xe-pagination-panel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+//两列时 input 宽度
+
+.xe-input-col2 {
+
+    width: 252px !important;
+}
+
+.xe-input-col3 {
+
+    width: 352px !important;
+}
+
+//覆盖主菜单和子菜单font-size为13px
+.xcms-mainmenu li .text, .m-submenu .el-menu-item{
+    font-size:13px!important;
+}
+
+.xcms-header .header .logo a{
+    font-size: 16px !important;
+}
